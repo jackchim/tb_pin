@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/*public style */
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p,
+a, address, font, ol, ul, li,
+fieldset, form, tbody, tfoot {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 12px;
+	color:#898989;
+	vertical-align: baseline;
+	background: transparent;
+}
+img{
+    border:0;
+}
+html {
+	 height:100%; margin:0; 
+	 background-color:#f0f0f0;
+}
+
+body {
+	height:100%; 
+	margin:0;
+}
+ul, li, ol, dd{
+	list-style: none;
+	display:block;
+	float:left;
+	margin:0;
+	padding:0;
+}
+dd{
+	margin-right:10px;}
+button {cursor:pointer;}
+ol, ul, li {list-style: none outside none; margin: 0; padding: 0;}
+a span {cursor: pointer;}
+a {text-decoration: none;}
+a:link {color: #003298;}
+a:hover {color: #E35B00; text-decoration: underline;}
+.r { text-align: right;}
+.hide {display: none;}
+.clear {clear:both; height:0px; line-height:0px; padding:0px; margin:0px; font-size:0px;}
+.left {float:left; }
+.right {float:right; text-align:right;}
+img, select, input, button {vertical-align: middle;}
+<!--自适应不显示的ID-->
+.adaptive{
+	height:1px;
+	margin-top:-1px;
+	clear:both;
+	overflow:hidden;
+
+}
+ /*系统信息*/
+
+h1{
+	line-height:40px;
+	font-size:24px;
+	font-weight:bold;
+	text-indent:5px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.time{
+	color:#a8a8a8;
+	margin-left:10px;
+}
+.m{
+	margin:1px;
+
+}
+
+.label{
+	padding-top:3px;}
+
+#pager { clear:both; line-height:normal; padding:15px 10px 4px 0;}
+.pagenum a:link, .pagenum a:visited, .pagenum strong { background-color: #F0F6FF; border: 1px solid #CAD7ED; margin-right: 3px; padding: 1px 4px; }
+.pagenum a:visited { color: #023DB5; }
+.pagenum a:hover, .pagenum b a:hover, .pagenum .now:link, .pagenum .now:visited, .pagenum .now:hover, .pagenum strong { color: #333333;  }
+
+/*****/
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+ul li{ margin:0; padding:0; list-style-type:none; float:left;}
+.sitebox{ border:0; height:600px; padding:0;}
+.siteinfo, .siteinfo02{ float:left; width:450px; line-height:24px; padding-left:6px;}
+.siteinfo03{ float:left; padding-left:6px; margin-top:30px;}/*菜单样式*/
+#tab{ height:395px; margin:0; padding:0px;}
+#Menubox ul{ margin:0; padding:0; height:24px; line-height:22px; list-style:none; border-bottom-width: 1px #CDCDCD solid; width:860px;}
+#Menubox ul li, #Menubox ul li.hover{ height:24px; line-height:24px; float:left; display:block; width:140px; margin-right:6px; cursor:pointer; color:#808080; background-image: url(../images/tab_14.gif); background-repeat: no-repeat; font-size:12px; text-align:center;}
+#Menubox ul li.hover{ background-image:url(../images/tab_12.gif); color:#ffffff; background-repeat: no-repeat;}
+#Contentbox{ width:739px; height:auto;	border:3px solid #DDDDDD;}
+#Contentbox table{ width:100%; height:100px; text-align:center; border-bottom:1px #CCCCCC solid; line-height:22px;}
+#Contentbox table td{ border-right:1px #CCCCCC solid;}
+.bg_td{ background-color:#e1e1e1; font-weight:bold;}
+.bg_td02{ font-size:12px; font-weight:normal; border-bottom:1px #CCCCCC solid;}
+.second_tab{margin-top:26px; border-top:1px #CCC solid; color:#666;}
+.second_tab td{margin-top:12px; border-bottom:1px #CCC solid; font-size:12px; line-height:26px;}
